@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人网主页</title>
+		<link rel="stylesheet" type="text/css" href="css/album.css"/>
+		<style type="text/css">
+			*{
+				margin: 0px;
+				padding: 0px;
+				text-decoration: none;
+				list-style: none;
+				box-sizing: border-box;
+				font-family: verdana;
+				color: #fff !important;
+			}
+			body{
+				font-family: "微软雅黑";
+				background-image: linear-gradient(to right bottom ,#a7de8b,#6dc06f);
+			}
+			header{
+				width: 100%;
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				overflow: hidden;
+			}
+			header .photo{
+				width: 190px;
+				height: 200px;
+				margin: auto;
+				margin-top: 20px;
+				background-color: #fff;
+				border-radius: 50%;
+				padding: 5px;
+				box-shadow: 0 0 5px rgba(0,0,0,0.2);
+				background-image: url(img/ced434fd990b7970082f858c2d64a29.png);
+				background-position: center;
+				background-size: 100% 100%;
+				background-repeat: no-repeat;
+			}
+			
+			header .name{
+				text-align: center;
+				font-size: 24px;
+				line-height: 40px;
+			}
+			
+			.aphorism{
+				text-align: center;
+				font-size: 14px;
+				color:#777;
+				margin-top: 20px;
+			}
+			header .line{
+				height: 2px;
+				width: 248px;
+				background-color: #fff;
+				margin: auto;
+			}
+			header nav{
+				width: 550px;
+				height: 40px;
+				margin: auto;
+				display: flex;
+				justify-content: space-between;
+				margin: 30px auto;
+			}
+			header nav a{
+				color: black;
+				line-height: 50px;
+				text-align: center;
+				display: block;
+				width: 100px;
+				line-height: 40px;
+				font-size: 20px;
+				font-weight: 500;
+			}
+			header nav .index{
+				color: #fff;
+				border-bottom: 2px solid #fff;
+			}
+			.active{
+				color: #FFF;
+				border-bottom: 2px solid #fff;
+			}
+			
+			footer{
+				height: 330px;
+				width: 100%;
+				background-color: #3d88c9;
+				margin-top: 50px;
+			}
+			footer .footer-container{
+				height: 180px;
+				width: 1200px;
+				margin: auto;
+				border-bottom: 1px solid #fff;
+				padding: 30px 0 0 0;
+				box-sizing: border-box;
+			}
+			footer .footer-container .welcome{
+				color: #fff;
+				font-size: 24px;
+				text-align: center;
+			}
+			footer .footer-container .nav-2{
+				width: 550px;
+				height: 40px;
+				margin: auto;
+				display: flex;
+				justify-content: space-between;
+				margin-top: 50px;
+			}
+			footer .footer-container .nav-2{
+				color: gray;
+			}
+			footer .contact-me p{
+				color: gray;
+			}
+			footer .contact-me{
+				margin: auto;
+				height: 150px;
+				width: 1200px;
+				display: flex;
+				justify-content: space-between;
+				flex-wrap: wrap;
+				align-content: center;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="photo"></div>
+			<p class="name">蜡笔小新</p>
+			<div class="line"></div>
+			<p class="aphorism">如果有来生，我要当条被子，不是躺在床上，就是在晒太阳。</p>
+			<nav>
+				<a href="index.html">主页</a>
+				<a href="home page.html" class="active">我的相册</a>
+				<a href="me.html">关于我的</a>
+			</nav>
+		</header>
+		<hr>
+		<div class="container">
+			<h2 class="photo-title">About my family</h2>
+			<div class="item-pic">
+				<li><img src="./img/ec91c91ae6d09068034fc3efb3ac9cd.png"></li>
+				<li><img src="./img/e50de2fe093c39bd2c0a542e97ea1eb.png"></li>
+				<li><img src="./img/c842b2337d6d9f5d80f09c3403dc686.png"></li>
+				<li><img src="./img/d9a8a6697cc6c2b5573ebc58808b03e.png"></li>
+			</div>
+			<h2 class="photo-title">About my friend</h2>
+			<div class="item-pic">
+				<li><img src="./img/47e27a41e92ef9f301961e3d3b7abc1.png"></li>
+				<li><img src="./img/d31dbcc17e6cc3b975b866a34b152d0.png"></li>
+				<li><img src="./img/b8d2a63b3bc0b18139381a9fb4abd29.png"></li>
+				<li><img src="./img/25d3e4f8a565c9dcd45a56a88ac1175.png"></li>
+			</div>
+		</div>
+		<footer>
+			<div class="footer-container">
+				<p class="welcome">WELCOME</p>
+				<nav class="nav-2">
+					<a href="index.html">主页</a>
+					<a href="home page.html">我的相册</a>
+					<a href="me.html">关于我的</a>
+				</nav>
+			</div>
+			<div class="contact-me">
+				<p>QQ:290xxxxxxx</p>
+				<p>TEL:181xxxxxxxx</p>
+				<p>E-mail:290xxxxxxx@qq.com</p>
+				<p>Address:日本埼玉县春日部市双叶町904号</p>
+			</div>
+		</footer>
+	</body>
+</html>
